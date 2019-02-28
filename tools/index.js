@@ -30,8 +30,8 @@ simulateLogin = () => {
     });
 
     driver.sleep(15 * 1000).then(function () {
-        driver.findElement(By.id('u')).sendKeys(447887933);
-        driver.findElement(By.id('p')).sendKeys('wwf960417');
+        driver.findElement(By.id('u')).sendKeys(******);
+        driver.findElement(By.id('p')).sendKeys('*****');
         driver.findElement(By.id('login_button')).click();
     }).catch(function (e) {
         console.log(e);
