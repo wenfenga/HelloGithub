@@ -1,0 +1,17 @@
+相关版本
+selenium-webdriver 版本: v4.0.0-alpha.1
+火狐驱动geckodriver 版本: v0.22.0
+火狐浏览器          版本：65.0.1(62位)
+node               版本：v10.14.1 
+
+安装
+将geckodriver放到node目录下
+
+npm install -g selenium-webdriver
+npm install selenium-webdriver
+
+启动：
+进入这个文件夹 node index.js
+
+已知的一些问题：
+再网速慢的情况下，可能会报获取不到元素的报错，重新启动下大多数时候可以解决。
