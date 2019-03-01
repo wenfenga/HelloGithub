@@ -15,3 +15,18 @@ npm install selenium-webdriver
 
 已知的一些问题：
 再网速慢的情况下，可能会报获取不到元素的报错，重新启动下大多数时候可以解决。
+
+更改文件：
+在performance.js里增加了几个方法
+1：统计slide和shape渲染时间
+2：计算fps
+3.导出数据
+
+一些坑：
+1.获取iframe里的元素时，记得先用driver.switchTo().frame()定位到iframe里
+2.selenium-webdriver4.0版本废除了mousedown和mouseUp方法
+3.selenium-webdriver3.6版本不支持move()方法
+4.mozPaintCount(当前文档 paint 到屏幕上的数量)目前只有火狐浏览器支持
+
+
+文档：https://seleniumhq.github.io/selenium/docs/api/javascript/index.html
